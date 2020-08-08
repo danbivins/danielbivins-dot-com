@@ -37,7 +37,7 @@ body {
     max-width: $container-max-width;
 }
 
-.intro-container {
+.content-container {
     display: block;
     max-width: 40rem;
     margin-top: 2rem;
@@ -46,4 +46,9 @@ body {
 .intro-sub {
     font-size: 1.5rem;
     line-height: 1.375;
+}
+
+.project-list {
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 2rem 0;
 }
