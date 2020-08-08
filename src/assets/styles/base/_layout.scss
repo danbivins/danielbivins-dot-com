@@ -1,6 +1,7 @@
 // Main Site Layout
 
 body {
+    background-color: #f9f9f9;
     overflow-x: hidden;
 }
 
@@ -37,10 +38,13 @@ body {
     max-width: $container-max-width;
 }
 
-.content-container {
+.container--content {
     display: block;
     max-width: 40rem;
     margin-top: 2rem;
+}
+
+.container--images-project {
 }
 
 .intro-sub {
