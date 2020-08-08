@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Daniel Bivins</title>
+    <subtitle>Portfolio</subtitle>
+    <link href="https://danielbivins.com/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://danielbivins.com" rel="alternate" type="text/html"/>
+    <author>
+        <name>Daniel Bivins</name>
+    </author>
+    
+    <updated>2020-04-12T00:00:00-04:00</updated>
+    
+    <id>https://danielbivins.com/</id>
+        <entry>
+            <title>An example post.</title>
+            <link href="https://danielbivins.com/posts/2020-04-12-sample-post/"/>
+            <updated>2020-04-12T00:00:00-04:00</updated>
+            <id>https://danielbivins.com/posts/2020-04-12-sample-post/</id>
+            <content type="html"><![CDATA[
+                <p>Lorem Ipsum Dolor.</p>
+
+            ]]></content>
+        </entry></feed>
