@@ -9,18 +9,29 @@ h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 700;
     text-rendering: optimizeLegibility;
 }
 
 h2 {
-    font-size: 2.125rem;
-    font-weight: 700;
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
 }
 
 p {
-    margin: 0;
+    font-weight: 300;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.75;
+}
+
+a {
+    color: $brand-red2;
 }
 
 .lead {
