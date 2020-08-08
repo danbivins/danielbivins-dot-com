@@ -17,14 +17,17 @@ h1 {
 h2 {
     font-size: 2.25rem;
     font-weight: 500;
+    margin: 3rem 0 1rem 0;
 }
 
 h3 {
     font-size: 1.75rem;
     font-weight: 500;
+    margin: 3rem 0 1rem 0;
 }
 
-p {
+p,
+li {
     font-weight: 300;
     margin: 0 0 1.5rem 0;
     line-height: 1.75;
@@ -32,6 +35,11 @@ p {
 
 a {
     color: $brand-red2;
+    text-decoration: underline;
+    &:hover {
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
 
 .lead {
