@@ -1,9 +1,4 @@
-# danielbivins.com
-
-([danielbivins.com](https://danielbivins.com))
-UX Designer, Accessibility Specialist, &amp; front-end desginer
-
-<!-- # Eleventastic
+# Eleventastic
 
 A simple Eleventy Starter Kit, my base for all new 11ty projects. ([Demo Site](https://eleventastic.netlify.com))
 
@@ -59,4 +54,4 @@ My heartfelt thanks to these people, whom I shamelessly copied ideas from:
 
 * Phil Hawksworth: [EleventyOne](https://github.com/philhawksworth/eleventyone)
 * Mike Riethmuller: [Supermaya](https://github.com/MadeByMike/supermaya)
-* Zach Leatherman: [zachleat.com](https://github.com/zachleat/zachleat.com) -->
+* Zach Leatherman: [zachleat.com](https://github.com/zachleat/zachleat.com)

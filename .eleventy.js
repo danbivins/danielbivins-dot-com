@@ -6,14 +6,11 @@ const filters = require('./utils/filters.js')
 const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
-const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
-
 
 module.exports = function (config) {
     // Plugins
     config.addPlugin(pluginRss)
     config.addPlugin(pluginNavigation)
-    config.addPlugin(lazyImagesPlugin);
 
     // Filters
     Object.keys(filters).forEach((filterName) => {

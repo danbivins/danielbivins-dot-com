@@ -41,7 +41,6 @@
     "webpack": "^4.42.1"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
-    "eleventy-plugin-lazyimages": "^2.1.0"
+    "cross-env": "^7.0.2"
   }
 }
