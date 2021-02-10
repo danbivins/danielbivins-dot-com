@@ -8,16 +8,4 @@
         <name>Daniel Bivins</name>
     </author>
     
-    <updated>2020-04-12T00:00:00-04:00</updated>
-    
-    <id>https://danielbivins.com/</id>
-        <entry>
-            <title>An example post.</title>
-            <link href="https://danielbivins.com/posts/2020-04-12-sample-post/"/>
-            <updated>2020-04-12T00:00:00-04:00</updated>
-            <id>https://danielbivins.com/posts/2020-04-12-sample-post/</id>
-            <content type="html"><![CDATA[
-                <p>Lorem Ipsum Dolor.</p>
-
-            ]]></content>
-        </entry></feed>
+    <id>https://danielbivins.com/</id></feed>

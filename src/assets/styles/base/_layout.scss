@@ -1,7 +1,7 @@
 // Main Site Layout
 
 body {
-    background-color: #f9f9f9;
+    background-color: $bg-color;
     overflow-x: hidden;
 }
 
@@ -31,6 +31,13 @@ body {
     }
 }
 
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     width: 90%;
     margin-left: auto;
@@ -39,6 +46,7 @@ body {
 }
 
 .container--content {
+    font-family: $font-family-serif;
     display: block;
     max-width: 40rem;
     margin-top: 2rem;
@@ -48,11 +56,25 @@ body {
 }
 
 .intro-sub {
-    font-size: 1.5rem;
-    line-height: 1.375;
+    font-size: 1.65rem;
+    line-height: 1.5;
 }
 
 .project-list {
     border-top: 1px solid rgba(0, 0, 0, 0.125);
     padding: 2rem 0;
+}
+
+.sub-footer {
+    border-top: 1px solid lightgray;
+    margin: 5rem 0 2rem 0;
+    padding: 3rem 0;
+
+    width: 100%;
+
+    &--inner {
+        display: $display-flex;
+        justify-content: $flex-space-between;
+        max-width: 200px;
+    }
 }

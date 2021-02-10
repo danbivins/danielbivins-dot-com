@@ -13,7 +13,7 @@ $breakpoints: (
     xl: 1260px
 );
 
-$container-max-width: 75ch;
+$container-max-width: 85ch;
 
 // Z-Index Stack
 //
@@ -53,7 +53,7 @@ $brand-color-primary-offset: darken($brand-red, 6%);
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-$font-family-serif: 'Times New Roman', Georgia, Times, serif;
+$font-family-serif: 'Georgia', Times, serif;
 $font-family-monospace: Menlo, Monaco, Consolas, 'Andale Mono', 'Courier New',
     monospace;
 $font-family-base: $font-family-sans-serif;
@@ -84,3 +84,7 @@ $box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
 $box-shadow-elevated: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
 
 $border-radius: 0.25rem;
+
+// flex properties
+$display-flex: flex;
+$flex-space-between: space-between;

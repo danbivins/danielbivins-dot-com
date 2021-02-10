@@ -11,4 +11,10 @@
         height: 3rem;
         width: 3rem;
     }
+
+    @include mq(lg) {
+        &__right {
+            width: 40%;
+        }
+    }
 }

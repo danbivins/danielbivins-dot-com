@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: An example post.
 ---
 
