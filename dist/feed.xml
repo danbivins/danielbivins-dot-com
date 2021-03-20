@@ -8,9 +8,19 @@
         <name>Daniel Bivins</name>
     </author>
     
-    <updated>2020-04-12T00:00:00-04:00</updated>
+    <updated>2021-03-15T20:46:59.254-04:00</updated>
     
     <id>https://danielbivins.com/</id>
+        <entry>
+            <title>An example post.</title>
+            <link href="https://danielbivins.com/posts/test-blog/"/>
+            <updated>2021-03-15T20:46:59.254-04:00</updated>
+            <id>https://danielbivins.com/posts/test-blog/</id>
+            <content type="html"><![CDATA[
+                <p>This is the blog top level.</p>
+
+            ]]></content>
+        </entry>
         <entry>
             <title>An example post.</title>
             <link href="https://danielbivins.com/posts/2020-04-12-sample-post/"/>

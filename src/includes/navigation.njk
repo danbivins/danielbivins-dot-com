@@ -1,5 +1,5 @@
-<nav class="nav js-nav" role="navigation" tabindex="-1">
-
+<nav
+    class="nav js-nav" role="navigation" tabindex="-1">
     {# Menu Toggle Button #}
     <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="nav-menu">
         <span class="sr-only">toggle menu</span>
@@ -10,33 +10,36 @@
             <span class="menuicon__bar"></span>
         </span>
     </button>
-
     {# Nav Links  #}
-    <ul class="nav__menu js-nav-menu" id="nav-menu" role="list">
+    <ul
+        class="nav__menu js-nav-menu" id="nav-menu" role="list">
         {# {%- for item in collections.all | eleventyNavigation -%}
-            {%- set isCurrent = (item.url == page.url) -%}
-            {%- set isParent = item.url != '/' and item.url in page.url -%}
-            <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}" role="listitem">
-                <a class="nav__link" href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}" {% if isCurrent %} aria-current="page" {% endif %}>
-                    {{ item.title }}
-                </a>
-            </li>
-        {%- endfor -%} #}
+                                                {%- set isCurrent = (item.url == page.url) -%}
+                                                {%- set isParent = item.url != '/' and item.url in page.url -%}
+                                                <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}" role="listitem">
+                                                    <a class="nav__link" href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}" {% if isCurrent %} aria-current="page" {% endif %}>
+                                                        {{ item.title }}
+                                                    </a>
+                                                </li>
+                                            {%- endfor -%} #}
         <li class="" role="listitem">
-            <a class="nav__link" href="/">
-                Home
-            </a>
+            <a class="nav__link" href="/">Home</a>
+        </li>
+        <li class="" role="listitem">
+            <a class="nav__link" href="/about">About</a>
+        </li>
+        <li class="" role="listitem">
+            <a class="nav__link" href="/blog">Blog</a>
         </li>
         {# <li class="" role="listitem">
-            <a class="nav__link" href="/about">
-                About
-            </a>
-        </li> #}
+                                                                    <a class="nav__link" href="/about">
+                                                                        About
+                                                                    </a>
+                                                                </li> #}
         {# <li class="" role="listitem">
-            <a class="nav__link" href="/#projects">
-                Projects
-            </a>
-        </li> #}
+                                                                    <a class="nav__link" href="/#projects">
+                                                                        Projects
+                                                                    </a>
+                                                                </li> #}
     </ul>
-
 </nav>
