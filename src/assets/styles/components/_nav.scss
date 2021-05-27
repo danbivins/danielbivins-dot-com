@@ -5,6 +5,10 @@
         left: 0;
         right: 0;
         background-color: #fff;
+
+        li {
+            list-style-type: none;
+        }
     }
     &__link {
         display: block;
