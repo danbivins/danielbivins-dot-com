@@ -41,7 +41,8 @@ body {
 .container--content {
     display: block;
     max-width: 40rem;
-    margin-top: 2rem;
+    margin: 2rem auto;
+    width: 90%;
 }
 
 .container--images-project {
