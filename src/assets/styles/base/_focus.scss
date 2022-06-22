@@ -5,7 +5,8 @@
 a:focus,
 button:focus,
 input:focus {
-    outline: 5px solid $brand-color-primary;
+    background-color: $brand-color-primary;
+        color: #ffffff;
 }
 
 // =================
