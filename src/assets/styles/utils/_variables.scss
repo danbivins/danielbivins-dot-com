@@ -36,15 +36,15 @@ $gray-lightest: #f7f7f9;
 
 // Brand Colors
 
-$brand-red: #fc6767;
-$brand-red2: #9e0d0d;
+$brand-main: #2fa8ff;
+$brand-secondary: #0059B9;
 
 // Color Mappings
 
 $bg-color: #fff;
 $text-color: $gray-darkest;
-$brand-color-primary: $brand-red;
-$brand-color-primary-offset: darken($brand-red, 6%);
+$brand-color-primary: $brand-main;
+$brand-color-primary-offset: darken($brand-main, 6%);
 
 // Typography
 //
