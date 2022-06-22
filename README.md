@@ -38,8 +38,4 @@ Currently, critical CSS will only be inlined in the head of the homepage. This i
 
 ## Credits
 
-My heartfelt thanks to these people, whom I shamelessly copied ideas from:
-
--   Phil Hawksworth: [EleventyOne](https://github.com/philhawksworth/eleventyone)
--   Mike Riethmuller: [Supermaya](https://github.com/MadeByMike/supermaya)
--   # Zach Leatherman: [zachleat.com](https://github.com/zachleat/zachleat.com)
+My heartfelt thanks to [https://github.com/maxboeck/eleventastic](https://github.com/maxboeck/eleventastic)
