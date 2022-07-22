@@ -1,5 +1,6 @@
 :root {
     --font-size-xl: 5rem;
+    --font-size-lg: 2.5rem;
     --font-wt-lt: 300;
     --font-wt-reg: 400;
     --font-wt-md: 500;
@@ -21,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: var(--font-size-lg);
     font-weight: 500;
     margin: 3rem 0 1rem 0;
 }
@@ -49,14 +50,25 @@ ul:not(.nav__menu) {
     margin-bottom: 1.75rem;
 }
 a {
+    border-bottom: 2px solid;
     color: $brand-secondary;
-    text-decoration: underline;
+    text-decoration: none;
     &:hover {
+        border-bottom: none;
         text-decoration: none;
         cursor: pointer;
     }
 }
 
+.header a {
+    border-bottom: none;
+
+    &:hover {
+        background-color: $brand-color-primary-offset;
+        color: white;
+    }
+
+}
 .lead {
     font-size: 1.5rem;
     font-weight: 300;
