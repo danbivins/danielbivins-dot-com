@@ -2,24 +2,34 @@
 layout: base
 permalink: /projects/mgov/
 eleventyNavigation:
-key: Jenzabar
+key: adhoc
 ---
 
 <div class="container">
     <div class="container--content">
         <h1>Medicare.gov</h1>
-        <h2 class="intro-sub">Reviving the Medicare Plan Finder tool</h2>
-        <h3>My role</h3>
+        <p class="intro-sub">Reviving the Medicare Plan Finder tool</p>
+        <h2>My role</h2>
         <ul>
             <li>UX Design</li>
             <li>Accessibility Specialist</li>
         </ul>
 
-        <h3>The Challenge</h3>
-        <p>Every year, millions of Medicare beneficiaries enter their Open Enrollment period, where they can find and enroll in the plan they want for the next year. The process of shopping for and enrolling in a plan is an intimidating journey due to the importance of the beneficiary's decision which affects their health and drug coverage—but also due to the incredible amount of data that needs to be presented to the user in order to help them make the best decision possible. </p>
+        <h2>The Challenge</h2>
+        <p>Nearly 15% of Americans are currently enrolled in Medicare and that number is expected to double over the next decade. As this group grows and more people rely on technology to help them access and enroll in government services, it is crucial that reliable and accessible access to these digital services meets their needs.</p>
+        
+        <p>The process of shopping for and enrolling in a Medicare plan is an intimidating journey due to the importance of the beneficiary's decision which affects their health and drug coverage &mdash; but also due to the incredible amount of data about options and services that flood Medicare beneficiaries every year.</p>
 
-        <p>Our goal was: replace a legacy tool built more than a decade ago with a tool that would make it easier for Medicare beneficiaries, or those who help them, to find and enroll in a Medicare plan that best meets their health and financial needs. To do this we asked:</p>
+        <p>Working collaboratively with our government partners at the Centers for Medicare & Medicaid Services (CMS) our goal was to replace a legacy tool built more than a decade ago with a tool that would make it easier for Medicare beneficiaries, or those who help them, to find and enroll in a Medicare plan that best meets their health and financial needs.</p> 
 
+        <strong>Some of the foundational issues we needed to resolve in this rebuild were the fact that the legacy tool:</strong>
+        <ul>
+            <li>was not responsive</li>
+            <li>presented an overwhelming amount of information and cognitively overwhelmed the user</li>
+            <li>was not built with performance, security, and reliability as a priority</li>
+        </ul>
+
+        <p>At the core of our human-centered design approach, the questions we kept asking were:</p> 
         <ul role="list">
             <li role="listitem">Who are our users?</li>
             <li role="listitem">What are their pain points?</li>
@@ -28,16 +38,17 @@ key: Jenzabar
             <li role="listitem">How do we ensure that the tool is performant, stable, reliable, and most importantly accessible to all regardless of ability?</li>
         </ul>
         
-        <h3>The Work</h3>
-        <p>Working with the Centers for Medicare & Medicaid Services ... I joined the Medicare team at Ad Hoc after they had done initial research and rough prototypes. Right away, I began learning the ins and outs of the Medicare system, with all of its policy intricacies to best understand the ecosystem that, in the end, affects a beneficiary's experience while searching for and enrolling in a Medicare plan.</p> 
+        <h2>The Work</h2>
 
-        <p>Following the successful Open Enrollment period, our team began the process to improve the MVP product we'd created and to better understand how people really used the tool.</p>  
+        <p>Using feedback from users and organizations who support them as well as aggregating policy and business requirements, we layed a foundation for an MVP product that was built with the user in mind.</p>
 
-        <p>Through user testing sessions during Open Enrollment, we saw how people actually used Plan Finder and began exploring the highest impact changes we could make to ensure an even smoother Open Enrollment the following year. There were many discussions around balancing the user impact and technical feasibility of the new feature work and feature improvements. Eventually we decided on focusing our improvements on: how people search for and select pharmacies and updating the plan results list and how the user filters that list.</p>
+        <p>Through usability sessions during Open Enrollment, we saw how people actually used Plan Finder and began exploring the highest impact changes we could make to ensure an even smoother Open Enrollment the following year. There were many discussions around balancing the user impact and technical feasibility of the new feature work and feature improvements. ///Eventually we decided on focusing our improvements on: how people search for and select pharmacies and updating the plan results list and how the user filters that list.</p>
         
+        <p>Our core features of focus</p>
         <ul role="list">
-            <li role="listitem">With that motivation, these new components contain proper semantic structure and aria tags, where needed, ensuring users could navigate via assistive technologies. Creating this solid foundation for the software to meet accessibility guidelines while improving the experience for sighted users not only helps to meet business goals but is also just good design.</li>
-            <li role="listitem">In the end, we drastically improved the time it takes to ship code by building out these components and making them reusable for developers. Below are several mockups of the UI component designs and pages from the style guide I created for Jenzabar.</li>
+            <li role="listitem">The drug search experience. From our user research, it quickly became clear that drug costs are one of the most stressful and most important decision points for a beneficiary. Drug coverage is filled with complexity and constantly evolving due to policy, how a plan and pharmacy covers a drug, what tier that drug is on, and how the drug moves through the Medicare coverage phases.</li>
+            <li>An anonymous shopping and plan enrollment experience that provides key pieces of information crucial to the decision making process at the optimal point in the experience and being able to filter and sort plans that best meet a beneficiary's needs.</li>
+            <li role="listitem">A personalized, logged in experience that streamlines the plan selection and enrollment process to reduce time being guided through the process.</li>            
         </ul>
         <div class="container--images-project u-mt4">
             <img class="u-mb4" src="{{ '/assets/images/jzb-sg2.jpg' | url }}" alt="Style Guide typography for Jenzabar project"/>
