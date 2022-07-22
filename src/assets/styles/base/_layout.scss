@@ -36,6 +36,7 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 .container--content {
@@ -45,10 +46,12 @@ body {
     width: 90%;
 }
 
-.container--images-project {
+.container--content h2:first-of-type {
+    margin-top: 5rem;
 }
 
 .intro-sub {
+    font-family: $font-family-serif;
     font-size: 1.5rem;
     font-weight: var(--font-weight-md);
     line-height: 1.375;
@@ -57,4 +60,21 @@ body {
 .project-list {
     border-top: 1px solid rgba(0, 0, 0, 0.125);
     padding: 2rem 0;
+}
+
+.quote-box {
+    background-color: #ededed;
+    padding: 2rem;
+}
+
+.note {
+
+    // @media only screen and (min-width: $breakpoint-xl) {
+    //     position: absolute;
+    //     left: 0;
+    // }
+
+    h2 {
+        font-size: 1.675rem;
+    }
 }
