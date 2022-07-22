@@ -2,6 +2,7 @@
 
 body {
     background-color: #f9f9f9;
+    color: #1d1d1d;
     overflow-x: hidden;
 }
 
@@ -35,12 +36,11 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    max-width: $container-max-width;
 }
 
 .container--content {
     display: block;
-    max-width: 40rem;
+    max-width: $container-max-width;
     margin: 2rem auto;
     width: 90%;
 }
@@ -50,6 +50,7 @@ body {
 
 .intro-sub {
     font-size: 1.5rem;
+    font-weight: var(--font-weight-md);
     line-height: 1.375;
 }
 

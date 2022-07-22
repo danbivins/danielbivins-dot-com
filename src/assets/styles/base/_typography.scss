@@ -1,3 +1,9 @@
+:root {
+    --font-size-xl: 5rem;
+    --font-wt-lt: 300;
+    --font-wt-reg: 400;
+    --font-wt-md: 500;
+}
 h1,
 h2,
 h3,
@@ -9,7 +15,7 @@ h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: var(--font-size-xl);
     font-weight: 700;
     text-rendering: optimizeLegibility;
 }
@@ -28,16 +34,20 @@ h3 {
 
 p,
 li {
-    font-weight: 300;
-    margin: 0 0 1.5rem 0;
+    font-size: 1.35rem;
+        font-weight: var(--font-wt-reg);
     line-height: 1.75;
 }
 
 li:not(.nav__menu li) {
     list-style-type: disc;
-    margin-left: 8%;
+    margin: 0 0 .75rem 2.5rem;
 }
 
+p,
+ul:not(.nav__menu) {
+    margin-bottom: 1.75rem;
+}
 a {
     color: $brand-secondary;
     text-decoration: underline;
