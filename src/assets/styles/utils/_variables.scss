@@ -13,7 +13,12 @@ $breakpoints: (
     xl: 1260px
 );
 
-$container-max-width: 62ch;
+$breakpoint-sm: 320px;
+$breakpoint-md: 670px;
+$breakpoint-lg: 940px;
+$breakpoint-xl: 1260px;
+
+$container-max-width: 65ch;
 
 // Z-Index Stack
 //
@@ -51,7 +56,7 @@ $brand-color-primary-offset: darken($brand-main, 6%);
 // Font, line-height, and color for body text, headings, and more.
 
 $font-family-sans-serif: 'Open Sans', sans-serif;
-$font-family-serif: 'Times New Roman', Georgia, Times, serif;
+$font-family-serif: 'Noto Serif', serif;
 $font-family-monospace: Menlo, Monaco, Consolas, 'Andale Mono', 'Courier New',
     monospace;
 $font-family-base: $font-family-sans-serif;
