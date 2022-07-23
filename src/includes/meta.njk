@@ -5,8 +5,8 @@
 <link rel="canonical" href="{{ absolutePageUrl }}">
 
 {# Open Graph #}
-<meta property="og:site_name" content="{{ title }}">
-<meta property="og:title" content="{{ title }}">
+<meta property="og:site_name" content="{{ meta.title }}">
+<meta property="og:title" content="{{ title or meta.title }}">
 <meta property="og:description" content="{{ description  or meta.description }}">
 <meta property="og:url" content="{{ absolutePageUrl }}">
 <meta property="og:locale" content="{{ meta.locale }}">
@@ -15,9 +15,9 @@
     <meta property="og:image" content="{{ image | url | absoluteUrl(meta.url) }}">
 {%- endif -%}
 
-{# {%- if noindex -%}
+{%- if noindex -%}
     <meta name="robots" content="noindex">
-{%- endif -%} #}
+{%- endif -%}
 
 {# Favicon #}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
