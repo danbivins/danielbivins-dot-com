@@ -13,15 +13,7 @@
     {# Nav Links  #}
     <ul
         class="nav__menu js-nav-menu" id="nav-menu" role="list">
-        {# {%- for item in collections.all | eleventyNavigation -%}
-                                                {%- set isCurrent = (item.url == page.url) -%}
-                                                {%- set isParent = item.url != '/' and item.url in page.url -%}
-                                                <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}" role="listitem">
-                                                    <a class="nav__link" href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}" {% if isCurrent %} aria-current="page" {% endif %}>
-                                                        {{ item.title }}
-                                                    </a>
-                                                </li>
-                                            {%- endfor -%} #}
+ 
         <li class="" role="listitem">
             <a class="nav__link" href="/">Home</a>
         </li>
@@ -31,15 +23,6 @@
         <li class="" role="listitem">
             <a class="nav__link" href="/blog">Blog</a>
         </li>
-        {# <li class="" role="listitem">
-                                                                    <a class="nav__link" href="/about">
-                                                                        About
-                                                                    </a>
-                                                                </li> #}
-        {# <li class="" role="listitem">
-                                                                    <a class="nav__link" href="/#projects">
-                                                                        Projects
-                                                                    </a>
-                                                                </li> #}
+ 
     </ul>
 </nav>
