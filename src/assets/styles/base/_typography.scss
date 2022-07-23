@@ -65,7 +65,7 @@ a {
 .header a {
     border-bottom: none;
 
-    &:hover {
+    &:hover:not(.dblogo) {
         background-color: $brand-color-primary-offset;
         color: white;
     }
