@@ -1,9 +1,11 @@
 :root {
     --font-size-xl: 5rem;
-    --font-size-lg: 2.5rem;
+    --font-size-lg: 3.25rem;
+        --font-size-sm: 2.5rem;
     --font-wt-lt: 300;
     --font-wt-reg: 400;
-    --font-wt-md: 500;
+    --font-wt-md: 600;
+        --font-wt-hv: 700;
 }
 h1,
 h2,
@@ -17,19 +19,19 @@ h6 {
 
 h1 {
     font-size: var(--font-size-xl);
-    font-weight: 700;
+    font-weight: var(--font-wt-hv);
     text-rendering: optimizeLegibility;
 }
 
 h2 {
     font-size: var(--font-size-lg);
-    font-weight: 500;
+    font-weight: var(--font-wt-md);
     margin: 3rem 0 1rem 0;
 }
 
 h3 {
-    font-size: 1.75rem;
-    font-weight: 500;
+    font-size: var(--font-size-sm);
+        font-weight: var(--font-wt-md);
     margin: 3rem 0 1rem 0;
 }
 
@@ -42,7 +44,7 @@ li {
 
 li:not(.nav__menu li) {
     list-style-type: disc;
-    margin: 0 0 .75rem 2.5rem;
+    margin: 0 0 .5rem 2.5rem;
 }
 
 p,
@@ -87,4 +89,9 @@ blockquote {
 figcaption {
     font-style: italic;
     font-family: $font-family-serif;
+    margin-top: .75rem;
+    }
+    
+    strong {
+        color: $gray-darkest;
 }
