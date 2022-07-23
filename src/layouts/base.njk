@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    {%- if noindex -%}
-        <meta name="robots" content="noindex">
-    {%- endif -%}
+    <title>{{ title }} | Daniel Bivins</title>
+{% if noindex %}
+  <meta name="robots" content="noindex">
+{% else %}
+  <meta name="robots" content="index">
+{% endif %}
 
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
     {% include "meta.njk" %}

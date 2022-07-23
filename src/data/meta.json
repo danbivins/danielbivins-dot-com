@@ -1,7 +1,8 @@
 {
-    "title": "Daniel Bivins",
+    "title": "Daniel Bivins Design",
     "description": "Portfolio",
     "url": "https://danielbivins.com",
     "lang": "en",
-    "locale": "en_us"
+    "locale": "en_us",
+    "noindex": "true"
 }
