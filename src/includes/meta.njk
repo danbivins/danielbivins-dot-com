@@ -15,9 +15,9 @@
     <meta property="og:image" content="{{ image | url | absoluteUrl(meta.url) }}">
 {%- endif -%}
 
-{%- if noindex -%}
+{# {%- if noindex -%}
     <meta name="robots" content="noindex">
-{%- endif -%}
+{%- endif -%} #}
 
 {# Favicon #}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}">
