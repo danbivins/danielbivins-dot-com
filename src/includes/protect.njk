@@ -1,0 +1,17 @@
+<div class="protect">
+    <span>Enter password:</span> 
+    
+    <input id='password' type='text'  />
+    <button href="{{ '/projects/adhoc' | url }}" onclick="javascript:return validatePass()">Enter your password</button>
+    
+    <script>
+    function validatePass(){
+        if(document.getElementById('password').value == 'Finn'){
+            return true;
+        }else{
+            alert('Incorrect password!!');
+            return false;
+        }
+    }
+    </script>
+</div>
