@@ -89,3 +89,9 @@ figure {
     margin: 5rem 0;
     padding: 2rem 0;
 }
+.img-small {
+    @media screen and (min-width: 40rem) {
+        border: 1px solid lightgray;
+        width: 65%;
+    }
+}
