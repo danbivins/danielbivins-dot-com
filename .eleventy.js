@@ -9,7 +9,7 @@ const iconsprite = require('./utils/iconsprite.js')
 
 module.exports = function (config) {
     // Plugins
-    config.addPlugin(pluginRss)
+    // config.addPlugin(pluginRss)
     config.addPlugin(pluginNavigation)
 
     // Filters
